@@ -651,7 +651,7 @@ emailjs.init({
           </div>
 
           <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+            <form id="myForm" action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
               <div class="row gy-4">
 
                 <div class="col-md-6">
@@ -672,10 +672,10 @@ emailjs.init({
 
                 <!-- <div class="col-md-12 text-center">
                   <div class="loading">Loading</div>
-                  <div class="error-message"></div> -->
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div> -->
 
-                  <button type="submit" onclick="sendMail() ;alert('Success')" >Send Message</button>
+                  <button type="submit" button>Send Message</button>
                 </div>
 
               </div>
@@ -738,11 +738,11 @@ emailjs.init({
           <div class="col-lg-4 col-md-12 footer-newsletter">
             <h4>Reach you</h4>
             <p>Provide your mail id i will reach you</p>
-            <form action="forms/newsletter.php"   method="post" class="php-email-form">
-              <div class="newsletter-form"><input id="onlymail" type="email" name="email"><input  onclick="sendMailonly();alert('success')" type="submit" value="Sent"></div> <!--here type="subscribe" i change to send-->
-              <div class="loading">Loading</div>
+            <form id="mailOnly" action="forms/newsletter.php"   method="post" class="php-email-form">
+              <div class="newsletter-form"><input id="onlymail" type="email" name="email"><input   type="submit" value="Sent"></div> <!--here type="subscribe" i change to send-->
+              <!-- <div class="loading">Loading</div>
               <div class="error-message"></div>
-              <div class="sent-message">Thank you!</div>
+              <div class="sent-message">Thank you!</div> -->
             </form>
           </div>
 
@@ -758,7 +758,7 @@ emailjs.init({
           <!-- You can delete the links only if you've purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">Adithyan Binu</a><a href="https://themewagon.com"></a>
+          Designed by <a href="">Adithyan Binu</a><a href="https://themewagon.com"></a>
         </div>
       </div>
     </div>
