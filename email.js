@@ -6,14 +6,14 @@ function sendMail(){
         message : document.getElementById("message").value,
 
     }
-    emailjs.send("service_8gka9pd","template_s675ar3",parms)
+    emailjs.send("service_xgi8uxl","template_sy369t6",parms)
 }
 
 function sendMailonly(){
     let parms={
         email: document.getElementById("onlymail").value,
     }
-    emailjs.send("service_8gka9pd","template_s675ar3",parms)
+    emailjs.send("service_xgi8uxl","template_sy369t6",parms)
 }
 
 document.addEventListener("DOMContentLoaded", function () {
